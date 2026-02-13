@@ -1,0 +1,10 @@
+.agent/
+.agents/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+build/
+.next/
+.vscode/

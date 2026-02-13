@@ -18,7 +18,7 @@ async def health_check():
 async def get_message():
     """Get message endpoint that returns a greeting from the backend"""
     return {
-        "message": "Hello from FastAPI! This message is coming from the backend.",
+        "message": "Hello from FastAPI! This message is coming from the backend and presented to you",
         "timestamp": datetime.now().isoformat(),
         "status": "success"
     }
